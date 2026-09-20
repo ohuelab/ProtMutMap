@@ -1,0 +1,10 @@
+method,cutoff_ps,endpoint_ns,n_nodes,n_systems,n_forward_edges,n_reverse_edges,unique_physical_legs,total_replicas,replica_ns_elapsed,replica_ns_nominal
+Additive,1000,1.0,11,5,13,5,36,1792,1612.8,1792.0
+Additive,2000,2.0,11,5,13,5,36,1792,3404.7999999999997,3584.0
+Additive,4000,4.0,11,5,13,5,36,1792,6988.8,7168.0
+Stepwise,1000,1.0,11,5,14,6,40,2048,1843.2,2048.0
+Stepwise,2000,2.0,11,5,14,6,40,2048,3891.2,4096.0
+Stepwise,4000,4.0,11,5,14,6,40,2048,7987.2,8192.0
+ProtMutMap,1000,1.0,11,5,37,10,94,4288,3859.2000000000003,4288.0
+ProtMutMap,2000,2.0,11,5,37,10,94,4288,8147.2,8576.0
+ProtMutMap,4000,4.0,11,5,37,10,94,4288,16723.2,17152.0

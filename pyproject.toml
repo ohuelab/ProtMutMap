@@ -1,0 +1,72 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "protmutmap"
+version = "1.0.0"
+description = "Predicting protein binding free energy changes using multiple-mutation networks"
+readme = "README.md"
+requires-python = ">=3.11"
+license = "GPL-3.0-or-later"
+license-files = ["LICENSE", "LICENSES/*"]
+authors = [
+    { name = "Kairi Furui", email = "furui@li.comp.isct.ac.jp" },
+    { name = "Masahito Ohue", email = "ohue@comp.isct.ac.jp" },
+]
+keywords = ["free energy perturbation", "protein mutation", "binding affinity", "FEP", "REST2"]
+classifiers = [
+    "Development Status :: 4 - Beta",
+    "Intended Audience :: Science/Research",
+    "Topic :: Scientific/Engineering :: Bio-Informatics",
+    "Topic :: Scientific/Engineering :: Chemistry",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+    "Programming Language :: Python :: 3.13",
+]
+dependencies = [
+    "numpy>=1.26",
+    "pandas>=2.0",
+    "networkx>=3.0",
+    "matplotlib>=3.7",
+    "biopython>=1.81",
+]
+
+[project.optional-dependencies]
+# Statistical analyses.
+analysis = ["scipy>=1.11"]
+# Structure preparation invoked by the FEP setup helpers.
+prep = ["pdb2pqr>=3.6", "pdb-tools>=2.5"]
+# BAR aggregation. bar_deltae calls MBAR.getFreeEnergyDifferences, which
+# pymbar 4 removed, so this pins the 3.x series.
+bar = ["pymbar>=3,<4"]
+dev = ["pytest>=8.0", "ruff>=0.6"]
+
+[project.urls]
+Homepage = "https://github.com/ohuelab/ProtMutMap"
+Repository = "https://github.com/ohuelab/ProtMutMap"
+
+[project.scripts]
+protmutmap = "protmutmap.cli:main"
+protmutmap-fepsuite-preparer = "protmutmap.fepsuite_preparer:main"
+
+[tool.setuptools]
+packages = ["protmutmap", "protmutmap.tools", "protmutmap.wcc"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+filterwarnings = ["ignore::DeprecationWarning"]
+
+[tool.ruff]
+line-length = 100
+target-version = "py311"
+# Keep vendored third-party code in its original style.
+extend-exclude = ["protmutmap/wcc", "protmutmap/tools/bar_deltae.py"]
+
+[tool.ruff.lint]
+select = ["E4", "E7", "E9", "F"]
+ignore = ["E402", "E741", "F841"]
+
+[tool.ruff.lint.per-file-ignores]
+"**/__init__.py" = ["F401"]

@@ -1,0 +1,47 @@
+{
+  "n_common": 11,
+  "n_systems": 5,
+  "cutoffs_ps": [
+    1000,
+    2000,
+    4000
+  ],
+  "windows_ps": [
+    [
+      550,
+      1000
+    ],
+    [
+      1050,
+      2000
+    ],
+    [
+      2050,
+      4000
+    ]
+  ],
+  "fixed_network_forward_edges": 37,
+  "fixed_network_reverse_edges": 10,
+  "fixed_edges_at_all_times": true,
+  "all_fits_converged": true,
+  "baseline_max_difference_from_saved_bidir": 8.881784197001252e-16,
+  "unavailable_edge_excluded_at_every_time": [
+    [
+      "charge",
+      "1AO7",
+      "WT",
+      "GE98A"
+    ]
+  ],
+  "fulltime_bar_fallback_used": false,
+  "physical_leg_deduplication": true,
+  "production_origin_ps": 100,
+  "primary_cost": "NREP * (endpoint_ps - 100) / 1000",
+  "nominal_endpoint_cost_also_exported": true,
+  "bootstrap": {
+    "nboot": 20000,
+    "seed": 20260914,
+    "paired": true,
+    "unit": "network_node"
+  }
+}

@@ -1,0 +1,7 @@
+system,network,designed_nodes,designed_edges,one_site_edges,two_site_edges,available_edges,complete_network,unique_complete_legs,actual_nrep_values,matched_replica_ns,recorded_replica_ns,note
+1A22,network,6,7,7,0,7,True,14,32,1792.0,1792.0,all_required_legs
+1A22,network_maxmut2,4,4,2,2,4,True,8,"32,72,96",1856.0,1856.0,all_required_legs
+1AO7,network,17,22,22,0,22,True,44,32,5632.0,5632.0,all_required_legs
+1AO7,network_maxmut2,12,15,5,10,15,True,30,"32,48",5120.0,5504.0,all_required_legs
+1BJ1,network,6,7,7,0,7,True,14,"32,64",2816.0,2816.0,all_required_legs
+1BJ1,network_maxmut2,4,4,2,2,4,True,8,"32,64,72,96",2112.0,2784.0,all_required_legs

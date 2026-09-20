@@ -1,0 +1,21 @@
+{
+  "window_ps": [
+    2100,
+    4100
+  ],
+  "production_origin_ps": 100,
+  "production_ns": 4,
+  "split_chunks": 10,
+  "parsed_legs": 104,
+  "raw_recomputed_legs": 5,
+  "extended_legs_recomputed": 4,
+  "validation_replay": [
+    {
+      "leg_id": "95f24fbb59c8",
+      "difference": 0.0
+    }
+  ],
+  "all_fits_converged": true,
+  "primary_n": 6,
+  "primary_networks_complete": true
+}

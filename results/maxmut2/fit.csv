@@ -1,0 +1,7 @@
+system,network,converged,n_iter,designed_edges,available_edges,fitted_edges
+1A22,network,True,1,7,7,7
+1A22,network_maxmut2,True,1,4,4,4
+1AO7,network,True,1,22,22,22
+1AO7,network_maxmut2,True,1,15,15,15
+1BJ1,network,True,1,7,7,7
+1BJ1,network_maxmut2,True,1,4,4,4

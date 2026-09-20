@@ -1,0 +1,13 @@
+{
+  "main_condition": "bidirectional",
+  "nboot": 20000,
+  "seed": 20260914,
+  "files": {
+    "edge_metrics.csv": "0329ea3155a0247d99f941f636c34a5cb18b4292f1f34331fc189887f4f3f8f3",
+    "edge_predictions.csv": "4fe7e040cb5a30dee98590c538fc98c96fbc650e9ddc44bc3689b3ef891c9379",
+    "leave_one_system_out.csv": "c20fc70f4173a7230793bc831443a20cb2e7342778590b045ae805ad065db280",
+    "metrics.csv": "a5074e9d220bedeb0f56e39fbcf40071124e5d612d604fc4f7a92a642622cfce",
+    "node_predictions.csv": "ff6646661ac0ea22c7c6fd1da25a74a9c423a091206d2a51d253e1646c9273a9",
+    "paired_rmse.csv": "2c4f733f0a4fb41add4bb22244ccf51501332da687ddf1c4448a8a69679ee622"
+  }
+}

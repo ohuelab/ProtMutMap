@@ -1,0 +1,13 @@
+{
+  "files": {
+    "checks.json": "6b382bbd7f994258e566891ef8d2393df6e8d4db7f30abf28d3139148dd7b4df",
+    "edges.csv": "fb924892170b6a238867c0fbb39b665b3edf50a3ccc29fed901afc5df5675bae",
+    "fit.csv": "62e6a7d461a8167454c476faa53c6ee1c4fef832b2d09aacdf7298c475f4d154",
+    "legs.csv": "c780c57649721be65e04f09fdf64f3857a0da4da85733bca6ce845379792e22b",
+    "metrics.csv": "62bda6d1b502f0ce6ffc34280a908e073eb89e6dc4bcb5ed6e53b062e00dc8ed",
+    "network_cost.csv": "5927181ae42adad8d87d7ece6c8088bef4aa44168073e5e7fbfadd8142348d4d",
+    "predictions.csv": "d0ebebfb666ad3d16a8cf50c8989899447d09a7487a4622d5a166184f87ee834",
+    "primary_cost.csv": "14cec03aba55e24b176e2b95323e76d48ccaa29e44d902dc8a9cc292fbdcccbe",
+    "replica_counts.csv": "d78e2c06d5d65241139fd3593d2fa3084c986c2ab2790730a72307f37be7d154"
+  }
+}

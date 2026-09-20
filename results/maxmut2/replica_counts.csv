@@ -1,0 +1,14 @@
+system,network,nrep,unique_legs,replica_ns
+1A22,network,32,14,1792
+1A22,network_maxmut2,32,4,512
+1A22,network_maxmut2,72,2,576
+1A22,network_maxmut2,96,2,768
+1AO7,network,32,44,5632
+1AO7,network_maxmut2,32,10,1280
+1AO7,network_maxmut2,48,20,3840
+1BJ1,network,32,6,768
+1BJ1,network,64,8,2048
+1BJ1,network_maxmut2,32,2,256
+1BJ1,network_maxmut2,64,2,512
+1BJ1,network_maxmut2,72,2,576
+1BJ1,network_maxmut2,96,2,768

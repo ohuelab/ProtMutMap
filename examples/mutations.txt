@@ -1,0 +1,8 @@
+# Example mutations file for the ProtMutMap CLI
+# Each line can contain one or more comma-separated mutations
+# Lines starting with # are comments and will be ignored
+
+AA1T,AA2W
+AA1T,AA2V
+AA1P,AA2V
+AA1S,AA2R
