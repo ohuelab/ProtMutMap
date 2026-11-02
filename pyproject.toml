@@ -40,7 +40,8 @@ analysis = ["scipy>=1.11"]
 prep = ["pdb2pqr>=3.6", "pdb-tools>=2.5"]
 # BAR aggregation. bar_deltae calls MBAR.getFreeEnergyDifferences, which
 # pymbar 4 removed, so this pins the 3.x series.
-bar = ["pymbar>=3,<4"]
+# pymbar 3 also imports six without declaring it as a dependency.
+bar = ["pymbar>=3,<4", "six>=1.16"]
 dev = ["pytest>=8.0", "ruff>=0.6"]
 
 [project.urls]
