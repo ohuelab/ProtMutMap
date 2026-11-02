@@ -3,9 +3,11 @@
 ProtMutMap builds mutation networks and estimates protein–protein binding
 ΔΔG from FEP edge values using Huber regression.
 
-The [FEP input archive](https://github.com/ohuelab/ProtMutMap/releases/download/fep-inputs/protmutmap_fep_inputs.zip)
-contains the calculation inputs used in the study. Its `manifest.tsv` maps
+The calculation inputs used in the study are included in
+[`fep_inputs/`](fep_inputs/). Its [`manifest.tsv`](fep_inputs/manifest.tsv) maps
 each directed mutation edge and calculation leg to the input files.
+The same inputs are also available as a
+[FEP input archive](https://github.com/ohuelab/ProtMutMap/releases/download/fep-inputs/protmutmap_fep_inputs.zip).
 
 ## Install
 

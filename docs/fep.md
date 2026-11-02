@@ -3,9 +3,14 @@
 Use this workflow to turn a mutation network into binding ΔΔG observations
 for the [node estimator](../README.md). Commands run from the repository root.
 
-For the study's calculations, download the [FEP input archive](https://github.com/ohuelab/ProtMutMap/releases/download/fep-inputs/protmutmap_fep_inputs.zip).
-Its `manifest.tsv` maps each directed edge and calculation leg to the corresponding
-coordinates, topology, and referenced `.itp` files. The forward edges are listed in
+The study's calculation inputs are included in [`fep_inputs/`](../fep_inputs/).
+Its [`manifest.tsv`](../fep_inputs/manifest.tsv) maps each directed edge and
+calculation leg to the corresponding coordinates, topology, and referenced
+`.itp` files; directory paths are relative to `fep_inputs/`.
+See the [input documentation](../fep_inputs/README.md) for the directory layout.
+The same files are also available in the
+[FEP input archive](https://github.com/ohuelab/ProtMutMap/releases/download/fep-inputs/protmutmap_fep_inputs.zip).
+The forward edges are listed in
 [`edge_diagnostics.csv`](../results/source_data/fep/edge_diagnostics.csv).
 
 ## Requirements and structures
